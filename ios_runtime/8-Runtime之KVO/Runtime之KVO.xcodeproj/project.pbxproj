@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		527018AD21821551003492EA /* CFPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 527018A421821551003492EA /* CFPerson.m */; };
+		527018B021821551003492EA /* CFRuntimeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 527018A721821551003492EA /* CFRuntimeKit.m */; };
+		527018B621829587003492EA /* NSObject+CFKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 527018B521829587003492EA /* NSObject+CFKVO.m */; };
+		527018B921829EE5003492EA /* CFObserverInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 527018B821829EE5003492EA /* CFObserverInfo.m */; };
+		52A55DED2185AD85008CB1BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A55DEC2185AD85008CB1BB /* main.m */; };
+		52A7CA67217EA45400DDB70B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A7CA66217EA45400DDB70B /* main.m */; };
+		52A7CA6F217EA48200DDB70B /* CFPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A7CA6C217EA48200DDB70B /* CFPerson.m */; };
+		52A7CA70217EA48200DDB70B /* CFFather.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A7CA6D217EA48200DDB70B /* CFFather.m */; };
+		52B37F64217FFB3400FCD1E7 /* CFPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B37F61217FFB3400FCD1E7 /* CFPerson.m */; };
+		52B37F65217FFB3400FCD1E7 /* CFRuntimeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B37F62217FFB3400FCD1E7 /* CFRuntimeKit.m */; };
+		52B37F672180047B00FCD1E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B37F662180047B00FCD1E7 /* main.m */; };
+		52B37F6F21814DA100FCD1E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B37F6E21814DA100FCD1E7 /* main.m */; };
+		52B37F7521814DCB00FCD1E7 /* CFPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B37F7321814DCB00FCD1E7 /* CFPerson.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5270189B2182152A003492EA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		52A7CA62217EA45400DDB70B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		52B37F55217FFAEF00FCD1E7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		52B37F6A21814DA100FCD1E7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5270189D2182152A003492EA /* 模拟KVO的实现 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "模拟KVO的实现"; sourceTree = BUILT_PRODUCTS_DIR; };
+		527018A421821551003492EA /* CFPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFPerson.m; sourceTree = "<group>"; };
+		527018A721821551003492EA /* CFRuntimeKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFRuntimeKit.m; sourceTree = "<group>"; };
+		527018A921821551003492EA /* CFRuntimeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFRuntimeKit.h; sourceTree = "<group>"; };
+		527018AA21821551003492EA /* CFPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFPerson.h; sourceTree = "<group>"; };
+		527018B421829587003492EA /* NSObject+CFKVO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+CFKVO.h"; sourceTree = "<group>"; };
+		527018B521829587003492EA /* NSObject+CFKVO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CFKVO.m"; sourceTree = "<group>"; };
+		527018B721829EE5003492EA /* CFObserverInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFObserverInfo.h; sourceTree = "<group>"; };
+		527018B821829EE5003492EA /* CFObserverInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFObserverInfo.m; sourceTree = "<group>"; };
+		52A55DEC2185AD85008CB1BB /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52A7CA64217EA45400DDB70B /* KVO介绍 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "KVO介绍"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52A7CA66217EA45400DDB70B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52A7CA6B217EA48200DDB70B /* CFPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFPerson.h; sourceTree = "<group>"; };
+		52A7CA6C217EA48200DDB70B /* CFPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFPerson.m; sourceTree = "<group>"; };
+		52A7CA6D217EA48200DDB70B /* CFFather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFFather.m; sourceTree = "<group>"; };
+		52A7CA6E217EA48200DDB70B /* CFFather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFFather.h; sourceTree = "<group>"; };
+		52B37F57217FFAEF00FCD1E7 /* 原理解析 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "原理解析"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52B37F5F217FFB3300FCD1E7 /* CFRuntimeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFRuntimeKit.h; sourceTree = "<group>"; };
+		52B37F60217FFB3300FCD1E7 /* CFPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFPerson.h; sourceTree = "<group>"; };
+		52B37F61217FFB3400FCD1E7 /* CFPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFPerson.m; sourceTree = "<group>"; };
+		52B37F62217FFB3400FCD1E7 /* CFRuntimeKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFRuntimeKit.m; sourceTree = "<group>"; };
+		52B37F662180047B00FCD1E7 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52B37F6C21814DA100FCD1E7 /* 手动调用KVO */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "手动调用KVO"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52B37F6E21814DA100FCD1E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52B37F7321814DCB00FCD1E7 /* CFPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFPerson.m; sourceTree = "<group>"; };
+		52B37F7421814DCB00FCD1E7 /* CFPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFPerson.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5270189A2182152A003492EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52A7CA61217EA45400DDB70B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52B37F54217FFAEF00FCD1E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52B37F6921814DA100FCD1E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5270189E2182152A003492EA /* 模拟KVO的实现 */ = {
+			isa = PBXGroup;
+			children = (
+				527018A921821551003492EA /* CFRuntimeKit.h */,
+				527018A721821551003492EA /* CFRuntimeKit.m */,
+				527018AA21821551003492EA /* CFPerson.h */,
+				527018A421821551003492EA /* CFPerson.m */,
+				527018B721829EE5003492EA /* CFObserverInfo.h */,
+				527018B821829EE5003492EA /* CFObserverInfo.m */,
+				527018B421829587003492EA /* NSObject+CFKVO.h */,
+				527018B521829587003492EA /* NSObject+CFKVO.m */,
+				52A55DEC2185AD85008CB1BB /* main.m */,
+			);
+			path = "模拟KVO的实现";
+			sourceTree = "<group>";
+		};
+		52A7CA4D217EA41900DDB70B = {
+			isa = PBXGroup;
+			children = (
+				52A7CA65217EA45400DDB70B /* KVO介绍 */,
+				52B37F58217FFAEF00FCD1E7 /* 原理解析 */,
+				52B37F6D21814DA100FCD1E7 /* 手动调用KVO */,
+				5270189E2182152A003492EA /* 模拟KVO的实现 */,
+				52A7CA57217EA41A00DDB70B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52A7CA57217EA41A00DDB70B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52A7CA64217EA45400DDB70B /* KVO介绍 */,
+				52B37F57217FFAEF00FCD1E7 /* 原理解析 */,
+				52B37F6C21814DA100FCD1E7 /* 手动调用KVO */,
+				5270189D2182152A003492EA /* 模拟KVO的实现 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52A7CA65217EA45400DDB70B /* KVO介绍 */ = {
+			isa = PBXGroup;
+			children = (
+				52A7CA6E217EA48200DDB70B /* CFFather.h */,
+				52A7CA6D217EA48200DDB70B /* CFFather.m */,
+				52A7CA6B217EA48200DDB70B /* CFPerson.h */,
+				52A7CA6C217EA48200DDB70B /* CFPerson.m */,
+				52A7CA66217EA45400DDB70B /* main.m */,
+			);
+			path = "KVO介绍";
+			sourceTree = "<group>";
+		};
+		52B37F58217FFAEF00FCD1E7 /* 原理解析 */ = {
+			isa = PBXGroup;
+			children = (
+				52B37F60217FFB3300FCD1E7 /* CFPerson.h */,
+				52B37F61217FFB3400FCD1E7 /* CFPerson.m */,
+				52B37F5F217FFB3300FCD1E7 /* CFRuntimeKit.h */,
+				52B37F62217FFB3400FCD1E7 /* CFRuntimeKit.m */,
+				52B37F662180047B00FCD1E7 /* main.m */,
+			);
+			path = "原理解析";
+			sourceTree = "<group>";
+		};
+		52B37F6D21814DA100FCD1E7 /* 手动调用KVO */ = {
+			isa = PBXGroup;
+			children = (
+				52B37F7421814DCB00FCD1E7 /* CFPerson.h */,
+				52B37F7321814DCB00FCD1E7 /* CFPerson.m */,
+				52B37F6E21814DA100FCD1E7 /* main.m */,
+			);
+			path = "手动调用KVO";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5270189C2182152A003492EA /* 模拟KVO的实现 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 527018A32182152A003492EA /* Build configuration list for PBXNativeTarget "模拟KVO的实现" */;
+			buildPhases = (
+				527018992182152A003492EA /* Sources */,
+				5270189A2182152A003492EA /* Frameworks */,
+				5270189B2182152A003492EA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "模拟KVO的实现";
+			productName = "模拟KVO的实现";
+			productReference = 5270189D2182152A003492EA /* 模拟KVO的实现 */;
+			productType = "com.apple.product-type.tool";
+		};
+		52A7CA63217EA45400DDB70B /* KVO介绍 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52A7CA68217EA45400DDB70B /* Build configuration list for PBXNativeTarget "KVO介绍" */;
+			buildPhases = (
+				52A7CA60217EA45400DDB70B /* Sources */,
+				52A7CA61217EA45400DDB70B /* Frameworks */,
+				52A7CA62217EA45400DDB70B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KVO介绍";
+			productName = "KVO介绍";
+			productReference = 52A7CA64217EA45400DDB70B /* KVO介绍 */;
+			productType = "com.apple.product-type.tool";
+		};
+		52B37F56217FFAEF00FCD1E7 /* 原理解析 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52B37F5D217FFAEF00FCD1E7 /* Build configuration list for PBXNativeTarget "原理解析" */;
+			buildPhases = (
+				52B37F53217FFAEF00FCD1E7 /* Sources */,
+				52B37F54217FFAEF00FCD1E7 /* Frameworks */,
+				52B37F55217FFAEF00FCD1E7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "原理解析";
+			productName = "原理解析";
+			productReference = 52B37F57217FFAEF00FCD1E7 /* 原理解析 */;
+			productType = "com.apple.product-type.tool";
+		};
+		52B37F6B21814DA100FCD1E7 /* 手动调用KVO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52B37F7221814DA100FCD1E7 /* Build configuration list for PBXNativeTarget "手动调用KVO" */;
+			buildPhases = (
+				52B37F6821814DA100FCD1E7 /* Sources */,
+				52B37F6921814DA100FCD1E7 /* Frameworks */,
+				52B37F6A21814DA100FCD1E7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "手动调用KVO";
+			productName = "手动调用KVO";
+			productReference = 52B37F6C21814DA100FCD1E7 /* 手动调用KVO */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52A7CA4E217EA41900DDB70B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = GongCF;
+				TargetAttributes = {
+					5270189C2182152A003492EA = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					52A7CA63217EA45400DDB70B = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					52B37F56217FFAEF00FCD1E7 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					52B37F6B21814DA100FCD1E7 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 52A7CA51217EA41A00DDB70B /* Build configuration list for PBXProject "Runtime之KVO" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 52A7CA4D217EA41900DDB70B;
+			productRefGroup = 52A7CA57217EA41A00DDB70B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52A7CA63217EA45400DDB70B /* KVO介绍 */,
+				52B37F56217FFAEF00FCD1E7 /* 原理解析 */,
+				52B37F6B21814DA100FCD1E7 /* 手动调用KVO */,
+				5270189C2182152A003492EA /* 模拟KVO的实现 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		527018992182152A003492EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52A55DED2185AD85008CB1BB /* main.m in Sources */,
+				527018B921829EE5003492EA /* CFObserverInfo.m in Sources */,
+				527018B021821551003492EA /* CFRuntimeKit.m in Sources */,
+				527018AD21821551003492EA /* CFPerson.m in Sources */,
+				527018B621829587003492EA /* NSObject+CFKVO.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52A7CA60217EA45400DDB70B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52A7CA70217EA48200DDB70B /* CFFather.m in Sources */,
+				52A7CA67217EA45400DDB70B /* main.m in Sources */,
+				52A7CA6F217EA48200DDB70B /* CFPerson.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52B37F53217FFAEF00FCD1E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52B37F64217FFB3400FCD1E7 /* CFPerson.m in Sources */,
+				52B37F672180047B00FCD1E7 /* main.m in Sources */,
+				52B37F65217FFB3400FCD1E7 /* CFRuntimeKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52B37F6821814DA100FCD1E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52B37F6F21814DA100FCD1E7 /* main.m in Sources */,
+				52B37F7521814DCB00FCD1E7 /* CFPerson.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		527018A12182152A003492EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		527018A22182152A003492EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		52A7CA5B217EA41A00DDB70B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		52A7CA5C217EA41A00DDB70B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		52A7CA69217EA45400DDB70B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		52A7CA6A217EA45400DDB70B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		52B37F5B217FFAEF00FCD1E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		52B37F5C217FFAEF00FCD1E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		52B37F7021814DA100FCD1E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		52B37F7121814DA100FCD1E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		527018A32182152A003492EA /* Build configuration list for PBXNativeTarget "模拟KVO的实现" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				527018A12182152A003492EA /* Debug */,
+				527018A22182152A003492EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52A7CA51217EA41A00DDB70B /* Build configuration list for PBXProject "Runtime之KVO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52A7CA5B217EA41A00DDB70B /* Debug */,
+				52A7CA5C217EA41A00DDB70B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52A7CA68217EA45400DDB70B /* Build configuration list for PBXNativeTarget "KVO介绍" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52A7CA69217EA45400DDB70B /* Debug */,
+				52A7CA6A217EA45400DDB70B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52B37F5D217FFAEF00FCD1E7 /* Build configuration list for PBXNativeTarget "原理解析" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52B37F5B217FFAEF00FCD1E7 /* Debug */,
+				52B37F5C217FFAEF00FCD1E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52B37F7221814DA100FCD1E7 /* Build configuration list for PBXNativeTarget "手动调用KVO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52B37F7021814DA100FCD1E7 /* Debug */,
+				52B37F7121814DA100FCD1E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52A7CA4E217EA41900DDB70B /* Project object */;
+}
