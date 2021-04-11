@@ -26,6 +26,9 @@
     }
     /*
      *2.为了避免影响到父类的方法，添加方法
+     class_getInstanceMethod如果自己类找不到该方法,会去父类进行查找
+     所以这一步进行一个添加方法的操作,避免交换了父类的方法,引起其他继承该父类的类出现问题,
+     其实就是只交换我自己的,不去交换父类的,所以需要先添加一下
      */
     class_addMethod(self, originalSel, class_getMethodImplementation(self, originalSel), method_getTypeEncoding(originalMethod));
     class_addMethod(self, swizzledSel, class_getMethodImplementation(self, swizzledSel), method_getTypeEncoding(swizzledMethod));
